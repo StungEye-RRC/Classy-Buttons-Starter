@@ -25,8 +25,8 @@ void SoundBoardButton::draw() {
 void SoundBoardButton::processMouse() {
 	// Play sound if button is hovered and mouse is pressed.
 	// You may also want to use the buttonIsPressed boolean
-	// to ensure that a single button press doesn't trigger
-	// multiple plays.
+	// or the state of sound.isPlaying() to ensure that a
+	// a single button press doesn't trigger multiple plays. 
 }
 
 bool SoundBoardButton::buttonIsHovered() {
